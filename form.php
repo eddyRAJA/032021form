@@ -22,27 +22,23 @@
         <input  type="tel"  id="phone"  name="phone_number">
     </div><br>
     <div>
-      <label  for="sujet">Objet :</label>
-      <input  type="text"  id="sujet"  name="object">
-    </div><br>
+        <label for="sujet">Objet :</label>
+        <select id="sujet" name="object">
+            <option value="la vente">la vente</option>
+            <option value="du produit">du produit</option>
+            <option value="du délai">du délai</option>
+            <option value="du prix">du prix</option>
+        </select><br>
+    </div>
     <div>
       <label  for="message">Message :</label>
       <textarea  id="message"  name="user_message"></textarea>
     </div><br>
-    <div>
-      <label for="dispo">Disponiblilité en cas de contacte :</label>
-      <select id="dispo" name="moment">
-        <option value="dans la matiné">Matin</option>
-        <option value="entre midi et 14h">Midi</option>
-        <option value="dans l'après-midi">Après-midi</option>
-        <option value="en soirée">Soir</option>
-      </select><br>
-    </div>
+    
     <div  class="button">
       <button  type="submit">Envoyer votre message</button>
     </div>
   </form>
 </fieldset>
-
 </body>
 </html>
