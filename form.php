@@ -19,7 +19,7 @@
     </div><br>
     <div>
       <label  for="phone">Téléphone :</label>
-        <input  type="tel"  id="phone"  name="phone_number">*
+        <input  type="tel"  id="phone"  laceholder="0102030405" pattern="[0-9]{10}" name="phone_number">*
     </div><br>
     <div>
     <label for="sujet">Objet :</label>
